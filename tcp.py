@@ -1,5 +1,3 @@
-
-python3 - <<'PY'
 import socket
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -64,4 +62,3 @@ for carrier, (ok, n) in stats.items():
     print(f"{carrier}：{ok}/{n} 成功 ({ok/n*100:.1f}%)")
 
 print(f"总计：{total_ok}/{total} 成功 ({total_ok/total*100:.1f}%)")
-PY
